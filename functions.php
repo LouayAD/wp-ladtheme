@@ -28,5 +28,3 @@ function load_js()
     wp_enqueue_script('ladjs');
 }
 add_action('wp_enqueue_scripts', 'load_js');
-
-?>
