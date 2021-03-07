@@ -1,4 +1,4 @@
 $(document).ready(function()
 {
-    alert('test');
+    alert('Nothing to see here | sThe Site is under construction');
 })
