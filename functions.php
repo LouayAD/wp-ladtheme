@@ -31,3 +31,12 @@ add_action('wp_enqueue_scripts', 'load_js');
 
 //add support for custom menus
 add_theme_support('menus');
+
+//add support for custom post-thumbnail
+add_theme_support('post-thumbnails');
+
+//adding different image sizes
+add_image_size('smallest', 150, 150, true);
+add_image_size('small', 300, 300, true);
+add_image_size('large', 500, 500, true);
+add_image_size('largest', 800, 800, true);
