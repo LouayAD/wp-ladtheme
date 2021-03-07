@@ -3,3 +3,13 @@ Theme Name: LAD Theme
 Author: ladlab
 Version: 0.0.1
 */
+
+body{
+    background: black;
+}
+
+header{
+    background: white;
+    width: 100%;
+    height: 100px;
+}
