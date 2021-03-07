@@ -32,7 +32,6 @@ add_action('wp_enqueue_scripts', 'load_js');
 //theme options
 add_theme_support('menus');
 add_theme_support('widgets');
-add_theme_support('custom-logo');
 add_theme_support('post-thumbnails');
 
 //adding different image sizes
