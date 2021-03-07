@@ -30,9 +30,12 @@ function load_js()
 add_action('wp_enqueue_scripts', 'load_js');
 
 //theme options
-add_theme_support('menus'); //add support for custom menus
-add_theme_support('post-thumbnails'); //add support for custom post-thumbnail
-add_theme_support('widgets'); //add support for custom widgets
+add_theme_support('menus');
+add_theme_support('widgets');
+add_theme_support('custom-header');
+add_theme_support( 'custom-logo' );
+add_theme_support('custom-background');
+add_theme_support('post-thumbnails');
 
 //adding different image sizes
 add_image_size('smallest', 150, 150, true);
