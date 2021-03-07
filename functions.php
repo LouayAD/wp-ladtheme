@@ -21,7 +21,9 @@ add_action('wp_enqueue_scripts', 'include_jquery');
 
 function load_js()
 {
-    wp_register_script('ladjs', get_template_directory_uri() . 'js/scripts.js', '', 1, true);
+    wp_register_script('ladjs', get_template_directory_uri() . '/js/scripts.js', '', 1, true);
     wp_enqueue_script('ladjs');
 }
 add_action('wp_enqueue_scripts', 'load_js');
+
+?>
